@@ -1,0 +1,6 @@
+name: webinar-job
+cloud: anyscale-managed-2
+runtime_env:
+  working_dir: "https://github.com/anyscale/getting-started"
+entrypoint: "python a_script.py 1012"
+max_retries: 3
